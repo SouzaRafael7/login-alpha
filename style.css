@@ -76,12 +76,12 @@ body {
 }
 
 .formLogin a:hover {
-    color: #f72585;
+    color: #ff44c7;
 }
 
 .btn {
     background-color: #f72585;
-    color: #fff;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 600;
     border: none !important;
@@ -93,6 +93,24 @@ body {
 
 .btn:hover {
     transform: scale(1.05);
-    background-color: #ff0676;
+    background-color: #ff006a;
 
 }
+
+.meuBotao {
+    background-color: #ff00aa;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Arredonda os cantos */
+  }
+  
+  .meuBotao:hover { /* Efeito hover */
+    background-color: #ffacd6;
+  }

@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recuperar senha</title>
+  <title>Alpha S.A / Recuperar senha</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="page">
-    <form method="POST" class="formLogin">
-      <h1>Recuperar senha</h1>
-      <p>Digite seu email para recuperar sua senha</p>
+    <form id="formLogin" method="POST" class="formLogin">
+      <h1>Login</h1>
+      <p>Digite seu email para o <br> codigo de verificação ser enviado.</p>
       <label for="email">E-mail</label>
-      <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
-      <input type="submit" value="Enviar" class="btn" />
+      <input type="email" id="email" placeholder="Digite seu e-mail" autofocus="true" required>
+      <button type="submit" class="meuBotao" onclick="abrirOutraPagina1()">Enviar</button>
     </form>
   </div>
   <script src="script.js"></script>
