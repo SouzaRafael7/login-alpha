@@ -2,9 +2,9 @@
 Site de login da empresa alpha (nome fictício).
 
 * [introdoção](#introducao)
-* [Site 1](#site-1)
-* [Site 2](#site-2)
-* [Site 3](#site-3)
+* [Login](#login)
+* [Recuperação de senha](#recuperação-desenha)
+* [Cadastre-se](#cadastre-se)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Autores](#autores)
 
@@ -24,7 +24,7 @@ Interface Intuitiva e um design moderno e responsivo.
 Este projeto oferece uma base sólida para a página de login da sua empresa. Você pode personalizá-la de acordo com suas necessidades específicas, como integração com APIs de autenticação externa, inclusão de reCAPTCH para proteção contra bots, implementação de multilinguagem e muito mais.
 A implementação de funcionalidades avançadas como recuperação de senha e cadastro de novos usuários pode exigir conhecimento em JavaScript.
 
-## [Login](/atrasar.html)
+## [Login](/login.hmtl)
 1. Login:
 
 Acesse a página de login da empresa;
@@ -32,7 +32,7 @@ Insira seu email cadastrado no campo "Email";
 Digite sua senha no campo "Senha";
 Clique no botão "Entrar" para acessar a plataforma.
 
-## [Recuperação de senha](/mostrardata.html)
+## [Recuperação de senha](/esqueci.html)
 2. Recuperação de Senha:
 
 Na página de login, clique no link "Esqueci minha senha?" abaixo do campo "Senha".
@@ -43,7 +43,7 @@ direciona o usuário para uma página segura onde ele pode criar uma nova senha;
 
 Após ter criado uma nova senha o usuário é direcionado para o login.
 
-## [Cadastre](/mostrardata.html)
+## [Cadastre-se](/cadastre-se.html)
 
 3. Cadastro de Novos Usuários:
 
