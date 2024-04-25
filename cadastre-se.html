@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="cadastre-se.css">
 </head>
 <body>
-  <div class="page">
-    <form method="POST" class="formLogin">
+  <div class="cad">
+    <form id="formLogin" method="POST" class="inicioLogin">
       <h1>Cadastre-se</h1>
       <p>Digite os seus dados de acesso no campo abaixo.</p>
       <label for="name">Nome</label>
@@ -20,10 +20,10 @@
       <input type="password" placeholder="Digite sua senha" />
       <label for="password">Confirme a Senha</label>
       <input type="password" placeholder="Confirme a sua senha" />
-      <button type="button" class="meuBotao" onclick="abrirOutraPagina2()">Cadastrar</button>
+      <button type="submit" class="meuBotao" onclick="paginaWelcome()">Cadastrar</button>
     </form>
   </div>
-  <script src="script.js"></script>
+  <script src="../js/validation.js"></script>
   
 </body>
 </html>

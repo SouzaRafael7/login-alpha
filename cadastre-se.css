@@ -8,7 +8,7 @@ body {
     color: #0c0c0c
 }
 
-.page {
+.cad {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@ body {
     background-color: #480ca8;
 }
 
-.formLogin {
+.inicioLogin {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -33,21 +33,21 @@ body {
     width: 420px;
 }
 
-.formLogin h1 {
+.inicioLogin h1 {
     padding: 0;
     margin: 0;
     font-weight: 500;
     font-size: 2.3em;
 }
 
-.formLogin p {
+.inicioLogin p {
     display: inline-block;
     font-size: 14px;
     color: #666;
     margin-bottom: 25px;
 }
 
-.formLogin input {
+.inicioLogin input {
     padding: 15px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -59,16 +59,16 @@ body {
 }
 
 
-.formLogin input:focus {
+.inicioLogin input:focus {
     border: 1px solid #f72585;
 }
 
-.formLogin label {
+.inicioLogin label {
     font-size: 14px;
     font-weight: 600;
 }
 
-.formLogin a {
+.inicioLogin a {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 13px;
@@ -76,7 +76,7 @@ body {
     transition: all linear 160ms;
 }
 
-.formLogin a:hover {
+.inicioLogin a:hover {
     color: #f72585;
 }
 

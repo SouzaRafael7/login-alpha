@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
 </head>
 <body>
   <div class="page">
-    <form id="formLogin" method="POST" class="formLogin">
+    <form id="formLogin" method="POST" class="inicioLogin">
       <h1>Login</h1>
       <p>Digite seus dados de acesso no campo abaixo.</p>
       <label for="email">E-mail</label>
@@ -17,33 +18,11 @@
       <label for="password">Senha</label>
       <input type="password" id="password" placeholder="Digite sua senha" required>
       <a href="esqueci.html">Esqueci minha senha</a>
-      <button type="submit" class="meuBotao">Entrar</button>
+      <input type="submit" class="meuBotao" onclick="verificaCamposLogin()" value="Entrar">
+      <!-- <button type="submit" class="meuBotao" onclick="paginaWelcome()">Entrar</button> -->
       <p>Ainda não tem uma conta? <a href="cadastre-se.html">Cadastre-se</a></p>
     </form>
   </div>
-  <script>
-    const emailInput = document.getElementById('email');
-    const passwordInput = document.getElementById('password');
-
-    const loginForm = document.getElementById('formLogin');
-
-    loginForm.addEventListener('submit', (event) => {
-
-      if (emailInput.value === '' || passwordInput.value === '') {
-        event.preventDefault();
-        alert('Por favor, preencha todos os campos.');
-      } else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailInput.value)) {
-        event.preventDefault();
-        alert('Por favor, digite um e-mail válido.');
-      } else {
-        abrirOutraPagina2();
-      }
-    });
-  </script>
 </body>
+<script src="../main.js"></script>
 </html>
-
-
-
-
-
