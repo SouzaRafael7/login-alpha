@@ -59,7 +59,5 @@ Após isso o usuário é direcionado a tela de login.
 * [<code><img height="32" src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VisualStudio"/></code>](https://code.visualstudio.com/)
 * [<code><img height="32" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></code>](https://github.com/)
 * [<code><img height="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-* [<code><img height="32" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO7AQS50EjUKOVTW_5fJDaB95XQw59oN1lt-hsSP9aFeDWEpeFRbM22hYEDTudTw9qn14&usqp=CAU" alt="terminalRoot"/></code>](https://terminalroot.com.br/2019/05/novo-portal-de-cursos-e-site-terminal-root.html)
-
 ## Autores
 * ``Aluno 2ºC:``Rafael Souza Mastellini
