@@ -20,10 +20,6 @@ Cadastro;
 Validação de Dados: O sistema valida os dados inseridos no formulário de cadastro para garantir a qualidade e segurança das informações, além da utilização de javascript para não deixar nenhum campo vazio e auxiliar o usuário a escrever o email de forma correta;
 
 Interface Intuitiva e um design moderno e responsivo. 
-
-Este projeto oferece uma base sólida para a página de login da sua empresa. Você pode personalizá-la de acordo com suas necessidades específicas, como integração com APIs de autenticação externa, inclusão de reCAPTCH para proteção contra bots, implementação de multilinguagem e muito mais.
-A implementação de funcionalidades avançadas como recuperação de senha e cadastro de novos usuários pode exigir conhecimento em JavaScript.
-
 ## [Login](/login.hmtl)
 1. Login:
 
